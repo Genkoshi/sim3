@@ -1,0 +1,61 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    /* 23F */
+    background-image: linear-gradient(99deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 500px;
+    text-decoration: none;
+    height: 400px;
+    /* 24D */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(128deg, rgba(64, 61, 57, 0.1), hsla(0, 0%, 100%, .2));
+    /* 30C */box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+}
+.logo-container{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;  /* 27F */
+    align-items: center;
+}
+.logo-container img{
+    width: 120px;
+    /* 24C */
+    margin-top: 34px;
+}
+.logo-text{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 100px;
+    color: white;
+}
+
+.login-button{
+    background-color: #403d39;
+    font-family: sans-serif;
+    /* 25F */
+    display: flex;
+    /* 27C */
+    justify-content: center;
+    /* 27D */
+    align-items: center;
+    width: 70%;
+    border-radius: 3px;
+    height: 45px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logbutton-text{
+    text-decoration: none;
+    color: white;
+}

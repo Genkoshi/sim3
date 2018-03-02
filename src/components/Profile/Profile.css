@@ -1,0 +1,44 @@
+.dashboard{
+    background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
+    height: 60px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1), 0 6px 6px 0 rgba(0,0,0,0.2);
+    color: white;
+
+}
+
+.menu-container{
+    height: 100%;
+    width: 80%;
+    /* 24F */
+    box-sizing: border-box;
+    /* 24E */
+    padding: 0 20px;
+    display: flex;
+}
+.menu-buttons-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.page-title{   
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logout-link{
+    text-decoration: none;
+    color: white;
+}
